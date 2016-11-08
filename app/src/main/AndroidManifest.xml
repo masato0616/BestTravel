@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.accel_road.besttravel">
+
+    <!-- インターネット接続 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 位置情報 GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 位置情報 ネットワーク -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 位置情報 基地局 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+
+    <!--
+    To auto-complete the email text field in the login form with the user's emails
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BestTravelApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MyPageActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RouteListActivity"
+            android:label="@string/title_activity_my_route_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RouteDetailActivity"
+            android:label="@string/title_activity_route_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD8ukKty8vPBBFQ7UwZ7Nzz1Xt-YSd4VWU" />
+
+        <activity
+            android:name=".RouteEditActivity"
+            android:label="@string/title_activity_route_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DestinationEditActivity"
+            android:label="@string/title_activity_destination_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendListActivity"
+            android:label="@string/title_activity_friend_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountDetailActivity"
+            android:label="@string/title_activity_my_account_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MyAccountEditActivity"
+            android:label="@string/title_activity_my_account_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FriendSearchActivity"
+            android:label="@string/title_activity_friend_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FriendSelectActivity"
+            android:label="@string/title_activity_friend_select"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlbumDataDetailActivity"
+            android:label="@string/title_activity_album_data_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RouteSearchActivity"
+            android:label="@string/title_activity_route_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DirectMessageListActivity"
+            android:label="@string/title_activity_direct_message_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DirectMessageDetailActivity"
+            android:label="@string/title_activity_direct_message_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DirectMessageFriendSelectActivity"
+            android:label="@string/title_activity_direct_message_friend_select"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".firebase.BestTravelFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".firebase.BestTravelFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".NoticeDetailActivity"
+            android:label="@string/title_activity_notice_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

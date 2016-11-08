@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="ブロック対象者"
+        android:summary="ブロックした人を表示します">
+    </Preference>
+    <Preference android:title="広告の一時解除"
+        android:summary="動画を見ると1日広告が表示されなくなります">
+    </Preference>
+</PreferenceScreen>

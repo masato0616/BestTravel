@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "709504300575",
+    "firebase_url": "https://accel-road-best-travel.firebaseio.com",
+    "project_id": "accel-road-best-travel",
+    "storage_bucket": "accel-road-best-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709504300575:android:59903d4aa7e875ce",
+        "android_client_info": {
+          "package_name": "jp.co.accel_road.besttravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709504300575-891t2ilkn6shm7acaun113affbl5mco1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.co.accel_road.besttravel",
+            "certificate_hash": "0026418B7D2F5EFEE368907B14B4E70A5E73D4F1"
+          }
+        },
+        {
+          "client_id": "709504300575-d9p8hgib2ai24oaapbsl907kdc780urd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1oOK1qucnLJdM1jPjdZDj5en42dbJeIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709504300575-d9p8hgib2ai24oaapbsl907kdc780urd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

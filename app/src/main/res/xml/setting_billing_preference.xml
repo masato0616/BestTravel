@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="広告解除+容量追加"
+        android:summary="広告を解除し、容量を1G追加します" >
+    </Preference>
+    <Preference android:title="容量追加"
+        android:summary="容量を1G追加します">
+    </Preference>
+</PreferenceScreen>

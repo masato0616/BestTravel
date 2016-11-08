@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">ベストトラベル</string>
+    <string name="title_activity_my_route_list">マイルート一覧</string>
+    <string name="title_activity_route_edit">ルート情報</string>
+    <string name="title_activity_route_detail">ルート情報</string>
+    <string name="title_activity_route_search">ルート検索</string>
+    <string name="title_activity_destination_edit">目的地情報</string>
+    <string name="title_activity_friend_list">友達情報</string>
+    <string name="title_activity_friend_detail">友達情報</string>
+    <string name="title_activity_friend_search">友達検索</string>
+    <string name="title_activity_friend_select">友達選択</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_album_data_detail">アルバム</string>
+    <string name="title_activity_my_account_edit">アカウント情報</string>
+    <string name="title_activity_my_account_detail">アカウント情報</string>
+    <string name="title_activity_direct_message_list">メッセージ</string>
+    <string name="title_activity_direct_message_detail">メッセージ</string>
+    <string name="title_activity_direct_message_friend_select">メッセージ</string>
+    <string name="title_activity_login">ログイン</string>
+    <string name="title_activity_notice_detail">お知らせ</string>
+
+    <!-- 画面表示 -->
+    <string name="sex_man">男性</string>
+    <string name="sex_woman">女性</string>
+    <string name="misettei">未設定</string>
+    <string name="ok">OK</string>
+    <string name="ng">NG</string>
+
+
+    <!-- 入力値チェックエラー -->
+    <string name="error_required">値を入力してください</string>
+    <string name="error_login">ユーザーIDまたはパスワードが異なります</string>
+    <string name="error_transceiver">通信処理にてエラーとなりました</string>
+    <string name="error_refresh_token">ログイン情報が失われたため、ログアウトしました。\r\n再度ログインしてください</string>
+    <string name="error_not_exist_user">ユーザーが存在しません</string>
+    <string name="error_block">ブロックされているため、表示する事ができません</string>
+    <string name="error_not_user_id">ユーザーIDが設定されていません</string>
+    <string name="error_used_user_id">既にユーザーIDが登録されています</string>
+    <string name="error_input">入力値にエラーがあります</string>
+    <string name="error_regist">登録に失敗しました</string>
+    <string name="error_update">更新に失敗しました</string>
+    <string name="error_save_image">画像の保存に失敗しました</string>
+    <string name="error_save_route">ルート情報の保存に失敗しました</string>
+    <string name="error_not_gps">GPSが有効となっていないため、現在地を取得する事が出来ませんでした</string>
+    <string name="error_not_input">%1$sを入力してください</string>
+    <string name="error_less_input_length">%1$sは%2$s文字以上入力してください</string>
+    <string name="error_fraud">%1$sに間違った値が入力されています</string>
+    <string name="error_not_match_password">パスワードが一致しません</string>
+    <string name="error_get">%1$sの取得に失敗しました</string>
+    <string name="error_insert">%1$sの登録に失敗しました</string>
+    <string name="error_release">%1$sの解除に失敗しました</string>
+    <string name="error_insert_favorite_my_route">マイルートのため、お気に入り登録する事が出来ません</string>
+    <string name="error_over_end_date">終了日より後の日付に変更する事はできません</string>
+    <string name="error_less_start_date">開始日より前の日付に変更する事はできません</string>
+    <string name="error_freeze">アカウントが凍結されています。\r\n凍結を解除する場合は、管理者に連絡をしてください。</string>
+
+
+    <!-- メッセージ -->
+    <string name="message_save_account">アカウントを登録しました</string>
+    <string name="message_friend_add">友達を追加しました</string>
+    <string name="message_friend_remove">友達から削除しました</string>
+    <string name="message_friend_search_end">友達検索を終了しました</string>
+    <string name="message_block_add">ブロックしました</string>
+    <string name="message_block_remove">ブロックを解除しました</string>
+    <string name="message_favoirte_add">お気に入りに追加しました</string>
+    <string name="message_favoirte_remove">お気に入りを解除しました</string>
+    <string name="message_not_login_not_use">ログインしていないため、この機能を使用する事ができません</string>
+    <string name="message_working_not_use">現在未実装のため、この機能を使用する事ができません</string>
+    <string name="message_processing_account">アカウントを登録しています。\r\nしばらくお待ちください。</string>
+
+    <!-- 都道府県リスト -->
+    <string-array name="prefectures">
+        <item>未選択</item>
+        <item>北海道</item>
+        <item>青森県</item>
+        <item>岩手県</item>
+        <item>宮城県</item>
+        <item>秋田県</item>
+        <item>山形県</item>
+        <item>福島県</item>
+        <item>茨城県</item>
+        <item>栃木県</item>
+        <item>群馬県</item>
+        <item>埼玉県</item>
+        <item>千葉県</item>
+        <item>東京都</item>
+        <item>神奈川県</item>
+        <item>新潟県</item>
+        <item>富山県</item>
+        <item>石川県</item>
+        <item>福井県</item>
+        <item>山梨県</item>
+        <item>長野県</item>
+        <item>岐阜県</item>
+        <item>静岡県</item>
+        <item>愛知県</item>
+        <item>三重県</item>
+        <item>滋賀県</item>
+        <item>京都府</item>
+        <item>大阪府</item>
+        <item>兵庫県</item>
+        <item>奈良県</item>
+        <item>和歌山県</item>
+        <item>鳥取県</item>
+        <item>島根県</item>
+        <item>岡山県</item>
+        <item>広島県</item>
+        <item>山口県</item>
+        <item>徳島県</item>
+        <item>香川県</item>
+        <item>愛媛県</item>
+        <item>高知県</item>
+        <item>福岡県</item>
+        <item>佐賀県</item>
+        <item>長崎県</item>
+        <item>熊本県</item>
+        <item>大分県</item>
+        <item>宮崎県</item>
+        <item>鹿児島県</item>
+        <item>沖縄県</item>
+    </string-array>
+</resources>
